@@ -21,9 +21,9 @@
 
   // sendgrid api key
 
-  define('SENDGRID_API_KEY',"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");
-  define('SENDGRID_EMAIL',"subhasishswain416@gmail.com");
-  define('SENDGRID_NAME',"Subhashish");
+  define('SENDGRID_API_KEY',"Enter your Sndgrid API");
+  define('SENDGRID_EMAIL',"Enter your mail id");
+  define('SENDGRID_NAME',"Enter your name");
 
   // Possible "booking status" values in db = pending, booked, payment failed, cancelled
   
