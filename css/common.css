@@ -1,0 +1,92 @@
+:root {
+  --beige: #b0a695;
+  --beige_hover: #776b5d;
+  --bg: #f0ebe3;
+  --bg_card: #f9f5f1;
+  --bg_small_element: #f8f6f4;
+  --demo: #ede8d0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.h-font {
+  font-family: "quicksand", sans-serif;
+  font-optical-sizing: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.bg-color {
+  background-color: var(--bg);
+}
+
+.bg-card {
+  background-color: var(--bg_card);
+}
+
+.custom-bg {
+  background-color: var(--beige);
+  border: 1px solid var(--beige);
+}
+.custom-bg:hover {
+  background-color: var(--beige_hover);
+  border-color: var(--beige_hover);
+}
+
+.h-line {
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
+
+.custom-alert {
+  position: fixed;
+  top: 80px;
+  right: 25px;
+  z-index: 1111;
+}
+
+.demo {
+  background-color: var(--demo);
+}
+
+.raw {
+  background-color: var(--bg_card);
+}
+
+.card-color {
+  background-color: var(--bg_card);
+}
+
+.bg-small-card {
+  background-color: var(--bg_small_element);
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border: 1px solid #0d6efd;
+  background-color: #f9f9f9;
+}
+
+.card-img-top {
+  transition: transform 0.4s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
